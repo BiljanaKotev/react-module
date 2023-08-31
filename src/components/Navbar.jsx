@@ -1,3 +1,5 @@
+import ExampleClassComp from './ExampleClassComp';
+
 function Navbar() {
   return (
     <div>
@@ -6,6 +8,7 @@ function Navbar() {
         <li>Abut us</li>
         <li>Contact</li>
       </ul>
+      <ExampleClassComp />
     </div>
   );
 }
